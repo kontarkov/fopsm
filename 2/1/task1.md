@@ -14,7 +14,7 @@ __Примечание к заданию:__
 
 ![Команда ls](./images/1_1.png)  
 
-* Содержимое `file_list`:
-![file_list_1](./images/1_2.png)
-![file_list_2](./images/1_3.png)
+* Содержимое `file_list`:  
+![file_list_1](./images/1_2.png)  
+![file_list_2](./images/1_3.png)  
 ![file_list_3](./images/1_4.png)  
