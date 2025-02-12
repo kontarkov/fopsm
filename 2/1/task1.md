@@ -21,3 +21,7 @@ __Примечание к заданию:__
 ![file_list_2](./images/1_3.png)  
 
 ![file_list_3](./images/1_4.png)  
+
+* Содержимое `file_errors`:
+
+![file_errors](./images/1_5.png) 
