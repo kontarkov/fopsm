@@ -12,4 +12,4 @@ __Примечание к заданию:__
 ### Решение:
 Команда: `ls /tmp /tmp1 > /tmp/file_list 2>> /tmp/file_errors`  
 
-[Команда ls](./images/1_1.png)
+![Команда ls](./images/1_1.png)
