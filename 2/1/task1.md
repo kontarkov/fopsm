@@ -10,6 +10,11 @@ __Примечание к заданию:__
 В качестве решения пришлите полученную команду и скриншот терминала с выводом содержимого созданных файлов.  
 
 ### Решение:
-Команда: `ls /tmp /tmp1 > /tmp/file_list 2>> /tmp/file_errors`  
+* Команда: `ls /tmp /tmp1 > /tmp/file_list 2>> /tmp/file_errors`  
 
-![Команда ls](./images/1_1.png)
+![Команда ls](./images/1_1.png)  
+
+* Содержимое `file_list`:
+![file_list_1](./images/1_2.png)
+![file_list_2](./images/1_3.png)
+![file_list_3](./images/1_4.png)  
