@@ -24,8 +24,8 @@ __Примечание:__
 * `ps -U 5 > user_5_ps`
  
 или, например, так:  
-* `ps -U 2 1> user_2_ps  
-* `ps -U 5 1> user_5_ps
+* `ps -U 2 1> user_2_ps`  
+* `ps -U 5 1> user_5_ps`
  
 или, например, так:  
 * `ps -U 2 1> user_2_ps 2> user_2_ps_errors`  
