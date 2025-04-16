@@ -25,13 +25,13 @@ _В качестве ответа приложите скриншоты, на к
 
 ## Решение 3:
 
-![1](./images/1_1.png)  
-![2](./images/1_2.png)  
-![3](./images/1_3.png)  
-![4](./images/1_4.png)   
-![5](./images/1_5.png)  
-![6](./images/1_6.png)  
-![7](./images/1_7.png)  
-![8](./images/1_8.png)  
-![9](./images/1_9.png)  
-![10](./images/1_10.png)  
+![1](./images/2_1.png)  
+![2](./images/2_2.png)  
+![3](./images/2_3.png)  
+![4](./images/2_4.png)   
+![5](./images/2_5.png)  
+![6](./images/2_6.png)  
+![7](./images/2_7.png)  
+![8](./images/2_8.png)  
+![9](./images/2_9.png)  
+![10](./images/2_10.png)  
