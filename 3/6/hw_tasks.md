@@ -38,11 +38,15 @@ _Приведите развёрнутый ответ и приложите сн
 * __Осуществляем мониторинг `iostat -xz 1`:__
 
 ![iostat1](./images/6_4_1.png)  
+![iostat2](./images/6_4_2.png)  
+![iostat3](./images/6_4_3.png)  
 
 * __Осуществляем мониторинг `sudo iotop`:__
 
 ![iotop](./images/6_5.png)  
 ![iotop1](./images/6_5_1.png)  
+![iotop2](./images/6_5_2.png)  
+![iotop3](./images/6_5_3.png)  
 
 * __Влияющие процессы:__
 
