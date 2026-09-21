@@ -1,0 +1,48 @@
+version: '3.7'
+
+services:
+  prometheus:
+    image: prom/prometheus:v2.36.2
+    container_name: shtengelov-ia-netology-prometheus
+    volumes:
+      - ./prometheus/:/etc/prometheus
+      - prometheus_data:/prometheus
+    ports:
+    - "9090:9090"
+    networks:
+      - shtengelov-ia-my-netology-hw
+    depends_on:
+      - pushgateway
+    restart: always
+  pushgateway:
+    image: prom/pushgateway
+    container_name: shtengelov-ia-netology-pushgateway
+    ports:
+      - "9091:9091"
+    networks:
+      - shtengelov-ia-my-netology-hw
+    restart: always
+  grafana:
+    image: grafana/grafana
+    container_name: shtengelov-ia-netology-grafana
+    volumes:
+      - ./grafana/custom.ini:/etc/grafana/custom.ini
+      - grafana_data:/var/lib/grafana
+    environment:
+      - GF_PATHS_CONFIG=/etc/grafana/custom.ini
+    ports:
+      - "80:3000"
+    networks:
+      - shtengelov-ia-my-netology-hw
+    depends_on:
+      - prometheus  
+    restart: always 
+volumes:
+  prometheus_data:
+  grafana_data:
+
+networks:
+  shtengelov-ia-my-netology-hw:
+    ipam:
+      config:
+        - subnet: 10.5.0.0/16
