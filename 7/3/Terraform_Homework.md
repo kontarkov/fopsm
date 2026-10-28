@@ -42,15 +42,15 @@ terraform validate
 
 Итоговый план подтвердил создание четырёх ресурсов:
 
-![Итог плана создания четырёх ресурсов](images/04d_terraform_plan_localhost_summary.png)
+Для Nginx проверена привязка порта `1080` к `127.0.0.1`:
+
+![Настройки сетевого доступа Nginx в плане Terraform](images/04f_terraform_plan_localhost_nginx.png)
 
 Для WordPress проверена привязка порта `2080` к `127.0.0.1`:
 
 ![Настройки сетевого доступа WordPress в плане Terraform](images/04e_terraform_plan_localhost_wordpress.png)
 
-Для Nginx проверена привязка порта `1080` к `127.0.0.1`:
-
-![Настройки сетевого доступа Nginx в плане Terraform](images/04f_terraform_plan_localhost_nginx.png)
+![Итог плана создания четырёх ресурсов](images/04d_terraform_plan_localhost_summary.png)
 
 После подтверждения `terraform apply` создано четыре ресурса. Выполнение завершилось сообщением `Apply complete! Resources: 4 added, 0 changed, 0 destroyed`.
 
